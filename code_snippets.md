@@ -41,3 +41,15 @@ CHROME_PATH = r'/home/minhnd/Documents/baomoi/chromedriver_95'
 
 driver = webdriver.Chrome(executable_path=CHROME_PATH)
 ```
+___________
+# CONNECT DATABASE
+```
+	conn = psycopg2.connect(
+		host="HOST NAME",
+		database="DB NAME",
+		port='1234',
+		user="USER NAME",
+		password="PASSWORD"
+	)
+	cur = conn.cursor()
+```
