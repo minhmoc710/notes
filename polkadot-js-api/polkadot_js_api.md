@@ -37,6 +37,10 @@ signedBlock.block.extrinsics.forEach((ex, index) => {
   if (isSigned) {
     console.log(`signer=${ex.signer.toString()}, nonce=${ex.nonce.toString()}`);
   }
+
+// Địa chỉ của người xác thực 
+const header = await api.derive.chain.getHeader(blockHash);
+console.log(`#${header.number}: ${header.author}`);
 ```
 
 [Xem thêm](https://polkadot.js.org/docs/api/cookbook/blocks)
