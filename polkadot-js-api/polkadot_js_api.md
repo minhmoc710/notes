@@ -1,5 +1,9 @@
 ## Note: Extrinsic == Hoạt động
 
+# Cài đặt
+
+`npm i @polkadot/api`
+
 # Khởi tạo
 
 ```
