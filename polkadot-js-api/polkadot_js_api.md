@@ -50,6 +50,7 @@ await api.rpc.chain.subscribeNewHeads((lastHeader) => {
 ```
 
 Tổng số khối == Sô thứ tự của block mới nhất
+
 Các hoạt động gần đây == Các hoạt động có trong khối mới nhất
 
 [Xem thêm](https://polkadot.js.org/docs/api/start/api.rpc)
